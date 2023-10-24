@@ -1,0 +1,10 @@
+{
+	"name": "rust-devcontainer",
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+	"workspaceFolder": "/workspaces/rust_devcontainer/",
+	"settings": {},
+	"extensions":[],
+	"shutdownAction": "none",
+	"remoteUser": "vscode",
+	"postCreateCommand": "/bin/sh .devcontainer/postCreateCommand.sh"
+}
